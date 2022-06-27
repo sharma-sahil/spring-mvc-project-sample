@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+
+#footer-wrapper {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(125,
+		185, 232, 1) ), color-stop(20%, rgba(41, 137, 216, 1) ),
+		color-stop(56%, rgba(59, 103, 153, 1) ),
+		color-stop(73%, rgba(30, 87, 153, 1) ),
+		color-stop(100%, rgba(30, 87, 153, 1) ) ); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(125, 185, 232, 1) 0%,
+		rgba(41, 137, 216, 1) 20%, rgba(59, 103, 153, 1) 56%,
+		rgba(30, 87, 153, 1) 73%, rgba(30, 87, 153, 1) 100% );
+	/* Chrome10+,Safari5.1+ */
+	width: 770px;
+	margin: 0 auto;
+	height: 50px;
+	margin-top: 20px;
+}
